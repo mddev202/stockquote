@@ -230,7 +230,7 @@ public class StockQuote extends Application {
 		builder.add("symbol", symbol.toUpperCase());
 		builder.add("date", array.get(0)); //date is the first element
 		builder.add("price", array.get(4)); //day closing value is the fifth element
-		builder.add("hello", "world");
+		
 		return builder.build();
 	}
 	
